@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phonepe</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="./media/phonepe logo.svg" alt="logo" width="155px" height="66px" style="margin: 7px;">
+      </div>
+      <div id="navigation">
+        <li><a href="">BUSINESS SOLUTIONS</a></ul>
+        <li><a href="">PRESS</a></li>
+        <li><a href="">CAREERS</a></li>
+        <li><a href="">ABOUT US</a></li>
+        <li><a href="">BLOG</a></li>
+        <li><a href="">CONTACT US</a></li>
+        <li><a href="">TRUST & SAFETY</a></li>
+      </div>
+    </nav>
+  </header>
+  <div id="slider">
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+      <!-- Carousel wrapper -->
+      <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+        <!-- Item 1 -->
+        <div class=" ease-in-out sm" data-carousel-item="active">
+          <img src="media/cover 1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="...">
+          <div id="oi">
+            <div id="inslide">
+              <div id="ii">
+                <p id="two">2%</p>
+                <h1 id="free">FREE</h1>
+              </div>
+              <p id="p1">
+                Accept payments for your <br> online business at zero cost
+              </p>
+              <div id="p2">
+                Sign up for PhonePe Payment Gateway
+              </div>
+              <button id="b1">
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out sm" data-carousel-item>
+          <img src="media/cover 2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="...">
+        </div>
+        <!-- Item 3 comment -->
+        <div class="hidden duration-700 ease-in-out sm" data-carousel-item>
+          <img src="media/cover 3.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="...">
+          <div id="oi">
+            <div id="inslide">
+              <p id="p1" style="color: white;">
+                View statements & <br> manage financial <br> data consents
+              </p>
+              <div id="p2">
+                Register on PhonePe Account <br> Aggregator now!
+              </div>
+              <button id="b1">
+                Know More
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Item 4 comment -->
+        <div class="hidden duration-700 ease-in-out sm" data-carousel-item>
+          <img src="media/cover 4.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="...">
+          <div id="oi">
+            <div id="inslide">
+              <p id="p1" style="color: white;">
+                PhonePe
+                <span style="color:#4cdeff">Pulse</span>
+              </p>
+              <p id="p3">
+                Beat of Progress
+              </p>
+              <div id="p2" style="color: #c4bcf2;">
+                Find out how money moves in a country of 140 Crore! Now updated with the latest data for Q2 2023
+                (Apr-Jun)
+              </div>
+              <button class="b2">
+                Explore Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Item 5 comment -->
+        <div class="hidden duration-700 ease-in-out sm" data-carousel-item>
+          <img src="media/cover 5.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="...">
+          <div id="oi">
+            <div id="inslide">
+              <p id="p1" style="color: #5f1f9c;">
+                Recharge, pay bills <br> & send money safely<br> from home!
+              </p>
+              <div id="p2">
+                Help your family and friends make <br> safe payments with PhonePe
+              </div>
+              <button id="b1">
+                Get The App
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider indicators -->
+      <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+          data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+          data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+          data-carousel-slide-to="2"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+          data-carousel-slide-to="3"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+          data-carousel-slide-to="4"></button>
+      </div>
+      <!-- Slider controls -->
+      <button type="button"
+        class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none "
+        data-carousel-prev>
+        <span
+          class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M5 1 1 5l4 4" />
+          </svg>
+          <span class="sr-only">Previous</span>
+        </span>
+      </button>
+      <button type="button"
+        class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        data-carousel-next>
+        <span
+          class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="m1 9 4-4-4-4" />
+          </svg>
+          <span class="sr-only">Next</span>
+        </span>
+      </button>
+    </div>
+  </div>
+  <div id="cardbox">
+    <div class="card" style="background: url(./media/card1.svg);">
+      <div class="cc">
+        <h2>Insurance</h2>
+        <div>
+          →
+        </div>
+      </div>
+    </div>
+    <div class="card" style="background: url(./media/card2.svg);">
+      <div class="cc">
+        <h2>Investments</h2>
+        <div>
+          →
+        </div>
+      </div>
+    </div>
+    <div class="card" style="background: url(./media/card3.svg);">
+      <div class="cc">
+        <h2>Credit</h2>
+        <div>
+          →
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section id="TV">
+    <div id="TVt">
+      <h2>Simple, Fast & Secure</h2>
+      <div id="intvt">
+        <div>One app for all things money.</div>
+        <p>Pay bills, recharge, send money, buy gold, invest and shop at your favourite stores.</p>
+        <div class="line"></div>
+        <div>Pay whenever you like, wherever you like.</div>
+        <p>Choose from options like UPI, the PhonePe wallet or your Debit and Credit Card.
+        </p>
+        <div class="line"></div>
+        <div>Find all your favourite apps on PhonePe Switch.</div>
+        <p>Book flights, order food or buy groceries. Use all your favourite apps without downloading them.</p>
+      </div>
+    </div>
+    <div id="TVv">
+      <video autoplay loop muted>
+        <source src="./media/pp1V.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+  <section id="KJBJ">
+    <img src="./media/kjbj.png" height="212px" width="550px" alt="kjbj" style="padding-bottom: 20px;">
+    <img src="./media/phonepe logo.svg" height="62px" width="170px" alt="logo" style="padding-bottom: 20px;">
+  </section>
+  <section id="vimg">
+    <div id="vi1">
+      <img src="./media/vi1.png" height="400px" width="400px" onmouseover="this.style.width='450px'"
+        onmouseover="this.style.height='450px'" onmouseout="this.style.width='400px'"
+        onmouseout="this.style.height='400px'">
+    </div>
+    <div id="vi2">
+      <img src="./media/vi2.png" height="425px" width="425px" onmouseover="this.style.width='450px'"
+        onmouseover="this.style.height='450px'" onmouseout="this.style.width='400px'"
+        onmouseout="this.style.height='400px'">
+    </div>
+    <div id="vi3">
+      <img src="./media/vi3.png" height="450px" width="450px" onmouseover="this.style.width='450px'"
+        onmouseover="this.style.height='450px'" onmouseout="this.style.width='400px'"
+        onmouseout="this.style.height='400px'">
+    </div>
+    <div id="vi4">
+      <img src="./media/vi4.png" height="425px" width="425px" onmouseover="this.style.width='450px'"
+        onmouseover="this.style.height='450px'" onmouseout="this.style.width='400px'"
+        onmouseout="this.style.height='400px'">
+    </div>
+    <div id="vi5">
+      <img src="./media/vi5.png" height="400px" width="400px" onmouseover="this.style.width='450px'"
+        onmouseover="this.style.height='450px'" onmouseout="this.style.width='400px'"
+        onmouseout="this.style.height='400px'">
+    </div>
+    <img src="./media/playbutton.png" id="pb" alt="playbutton" height="80px" width="80px">
+  </section>
+    <div id="wavb">
+      <button id="wav">Watch all videos</button>
+    </div>
+    <section id="OPOP">
+      <div id="POP">
+        <div>
+          Payments on PhonePe are safe, reliable and fast. One in three Indians are now using the PhonePe app to send
+          money, recharge, pay bills and do so much more, in just a few simple clicks. PhonePe has also introduced
+          several Insurance products and Investment options that offer every Indian an equal opportunity to unlock the
+          flow of money, and get access to financial services.
+        </div>
+        <span>#KarteJaBadhteJa</span>
+      </div>
+    </section>
+    <!-- <section id="comp"> -->
+    <div id="yourm">
+      <img id="new" src="./media/100secure.png" height="200px" width="200px">
+      <div id="ym">
+        <h2>Your money stays safe.</h2>
+        <p>PhonePe protects your money with the best-in-class security systems that help minimize frauds.</p>
+        <div id="logo">
+          <img src="./media/pcilogo.png" height="30px" width="100px">
+          <img src="./media/isologo.png" height="30px" width="100px">
+        </div>
+      </div>
+
+    </div>
+    <div id="gr">
+      <div id="ingr">
+        <h2>
+          At 3.7 Crore
+          <br>
+          stores, apps, websites & more
+        </h2>
+        <button>Partner with us <img src="./media/arrow.svg" height="20px" width="30px"></button>
+      </div>
+      <section id="many">
+        <img src="./media/somanylogo.png" alt="">
+      </section>
+    </div>
+    <!-- </section> -->
+    <section id="osfb">
+      <div id="os">
+        <img src="./media/OS.png" style="padding-top: 111px; margin-left: -65px;">
+      </div>
+      <div id="fb">
+        <div id="TVt">
+          <h2>For Business</h2>
+          <div id="intvt">
+            <div>One app for all things money.</div>
+            <p>Pay bills, recharge, send money, buy gold, invest and shop at your favourite stores.</p>
+            <div class="line"></div>
+            <div>Pay whenever you like, wherever you like.</div>
+            <p>Choose from options like UPI, the PhonePe wallet or your Debit and Credit Card.
+            </p>
+            <div class="line"></div>
+            <div>Find all your favourite apps on PhonePe Switch.</div>
+            <p>Book flights, order food or buy groceries. Use all your favourite apps without downloading them.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="achiv">
+      <div id="achivb1">
+        <div>
+          <p>Trusted by over</p>
+          <h2>51 Crore</h2>
+          <p>Registered Users</p>
+        </div>
+        <div>
+          <p>Accepted all over</p>
+          <h2>India</h2>
+        </div>
+        <div>
+          <p>Accepted at</p>
+          <h2>3.8 Crore</h2>
+          <p>Stores</p>
+        </div>
+      </div>
+      <div id="achivb2">
+        <h2>
+          Get the latest data trends and insights on PhonePe Pulse!
+        </h2>
+        <button class="b2">
+          Explore Now
+        </button>
+      </div>
+    </div>
+    <footer>
+      <div class="flogo">
+        <img src="./media/phonepe logo.svg" height="60px" width="140px">
+      </div>
+      <div id="f1" class="f">
+        <h1>BUSINESS SOLUTIONS</h1>
+        <a href="">Payment Gateway</a>
+        <a href="">Guardian by PhonePe</a>
+        <a href="">Express Checkout</a>
+        <a href="">PhonePe Switch</a>
+        <a href="">Offline Merchant</a>
+        <a href="">Advertise on PhonePe</a>
+        <a href="">SmartSpeaker</a>
+      </div>
+      <div id="f2" class="f">
+        <h1>Insurance</h1>
+        <a href="">Motor Insurance</a>
+        <a href="">Bike Insurance</a>
+        <a href="">Car Insurance</a>
+        <a href="">Health Insurance</a>
+        <a href="">Arogya Sanjeevani Policy</a>
+        <a href="">Life Insurance</a>
+        <a href="">Term Life Insurance</a>
+        <a href="">1-Year Term Life Insurance</a>
+        <a href="">Personal Accident Insurance</a>
+        <a href="">Guaranteed Returns Plan</a>
+        <a href="">Travel Insurance</a>
+        <a href="">Domestic Travel Insurance</a>
+        <a href="">International Travel Insurance</a>
+        
+      </div>
+      <div id="f3" class="f">
+        <h1>Investments</h1>
+        <a href="">24K Gold</a>
+        <a href="">Liquid Funds</a>
+        <a href="">Tax Saving Funds</a>
+        <a href="">Equity Funds</a>
+        <a href="">Debt Funds</a>
+        <a href="">Hybrid Funds</a> 
+      </div>
+      <div id="f4" class="f">
+        <h1>General</h1>
+        <a href="">About Us</a>
+        <a href="">Careers</a>
+        <a href="">Contact Us</a>
+        <a href="">Press</a>
+        <a href="">Ethics</a>
+        <a href="">Report Vulnerability</a>
+        <a href="">Merchant Partners</a>
+        <a href="">Blog</a>
+        <a href="">Tech Blog</a>
+        <a href="">PhonePe Pulse</a>
+      </div>
+      <div id="f5" class="f">
+        <h1>Legal</h1>
+        <a href="">Terms & Condition</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Grievance Policy</a>
+        <a href="">How to Pay</a>
+        <a href="">E-Waste Policy</a>
+        <a href="">Trust & Safety</a>
+        <a href="">Global Anti-Corruption Policy</a>
+      </div>
+      <div id="fcompany">
+        <h1>Certification</h1>
+        <img src="./media/sisa.png" width="130px" height="70px">
+        <h2>See All Apps</h2>
+        <img src="./media/DN.svg" width="145px" height="38px">
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+</body>
+
+</html>
